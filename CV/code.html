@@ -11,9 +11,9 @@
     <nav class="navbar" >
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li style="float:right"><a href="#">Page 1</a></li>
-        <li style="float:right"><a href="#">Page 2</a></li>
         <li style="float:right"><a href="#">Page 3</a></li>
+        <li style="float:right"><a href="#">Page 2</a></li>
+        <li style="float:right"><a href="masukan.html">Beri Masukan</a></li>
         <style type="text/css">
           .navbar ul {
             list-style-type: none;
@@ -21,6 +21,10 @@
             padding: 0;
             overflow: hidden;
             background-color: #333;
+            top: 5;
+            position: fixed;
+            width: 99%;
+            z-index: 1;
           }
           li {
             float: left;
@@ -40,20 +44,30 @@
     </nav>
     <br>
     <div style="display: inline-block;">
-      <div style="display:flex; margin-left: 20%;">
+      <div style="display:flex; margin-left: 20%; margin-top: 50px;">
         <div class="child" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
           <img src="image/indhiro.jpeg" alt="Gambar Orang" style="width:300px; height:300px; border-radius:100%;"/>
           <br><br>
         </div>
-        <div style="width:650px; height:1000px; padding:10px; border:5px solid rgb(125, 128, 125); position: absolute;
+        <div style="width:650px; height:650px; padding:10px; border:5px solid rgb(125, 128, 125); position: absolute;
           margin-left: 40%;">
-          <p>Box #4 Deskripsi Diri</p>
-          <h1 style="padding:10px; background-color: grey; ">Indhiro Elsaday Nainggolan</h1>
+          <p>Box #2 Deskripsi Diri</p>
+          <h1 style="padding:10px; background-color: grey; ">Tentang saya</h1>
           <div style="padding:15px;font-family: Arial,Helvetica,sans-serif;">
-            <p><b>Universitas: Udayana</b></p>
-            <p><b>Prodi: Teknologi Informasi</b></p>
-            <p><b>Umur: 19</b></p>
-            <h5>Deskripsi Diri</h5>
+            <p>Saya sekarang sedang menduduki semester 4 di Universitas Udayana dengan prodi Teknologi Informasi.
+               Teknologi Informasi adalah istilah umum untuk teknologi apa pun yang membantu manusia dalam membuat, mengubah, menyimpan, 
+               mengomunikasikan dan/atau menyebarkan informasi. Teknologi Informasi pasti akan banyak dibutuhkan di masa depan jadi,
+               menurut saya prodi ini sangat baik untuk ditekuni.
+            </p>
+            <p>
+              Untuk hobi saya sendiri, saya senang menghabiskan waktu luang saya dengan bermain game dan menonton film. Dengan melakukan hal
+              tersebut, waktu terasa lebih cepat dan juga lebih menyenangkan. Bermain game bersama teman dapat membantu saya melepaskan 
+              penat dan stress setelah melakukan perkuliahan. 
+            </p>
+            <p>Mengingat perkuliahan offline sudah dimulai, saat ini saya berada di rumah sewa bersama teman saya.
+              Disini saya dipaksa untuk keluar dari zona nyaman karena semua harus dilakukan dengan mandiri. Mulai dari makan, bersih-bersih
+              , mencuci pakaian, mengatur keuangan, dan lainnya.             
+            </p>
           </div>
         </div>
       </div>
@@ -65,35 +79,17 @@
         <p style="padding:15px;font-family: Arial,Helvetica,sans-serif;"><b>Prodi: Teknologi Informasi</b></p>
         <p style="padding:15px;font-family: Arial,Helvetica,sans-serif;"><b>Umur: 19</b></p>
       </div>
-      
-      <div style="width:650px; padding:10px; border:5px solid rgb(125, 128, 125); margin-top: 1cm;">
-        <p>Box #2 Masukan</p>
-        <p style="padding:10px;background-color: grey;"><b>Berikan pendapatmu tentang saya</b></p>
-        <label style="padding:15px;font-family: Arial,Helvetica,sans-serif;" for="fname">
-          <b>Nama:</b>
-        </label>
-        <input type="text" id="fname" name="fname"> 
-        <br><br>
-        <label style="padding:15px;font-family: Arial,Helvetica,sans-serif;" for="fname">
-          <b>Pendapat:</b>
-        </label>
-        <input type="text" id="pendapat" nama="pendapat" style="width: 500px;" >
-        <br><br>
-        <button class="button button2">Submit</button>
-      </div>
-  
-      <div class="child" style="width:650px; padding:10px; border:5px solid rgb(125, 128, 125); margin-top: 1cm;">
-        <p>Box #3 Informasi Tambahan</p>
-        <p>saya suka bermain game</p>
-      </div>
+      <br>
+      <a href="masukan.html">
+      <button class="button button2">Beri Masukan</button></a>
     </div>
 
     <footer>
-      <ul>
-        <li><img src="image/instagram.png" alt=""><p>Instagram</p></a></li>
-        <li><img src="image/telegram.png" alt=""><p>Telegram</p></a></li>
-        <li><img src="image/twitter.png" alt=""><p>Twitter</p></a></li>
-        <li><img src="image/line.png" alt=""><p>Line</p></a></li>
+      <ul style= "margin-top: 50px; color: black;">
+        <li><img src="image/instagram.png" alt=""><p><a href="https://instagram.com/indhiro?utm_medium=copy_link" target="_blank">Instagram</a></p></li>
+        <li><img src="image/telegram.png" alt=""><p><a href="https://t.me/Indhiro" target="_blank">Telegram</a></p></li>
+        <li><img src="image/twitter.png" alt=""><p><a href="https://twitter.com/Indhiroo" target="_blank">Twitter</a></p></li>
+        <li><img src="image/line.png" alt=""><p><a href="https://line.me/ti/p/bGefQGjMKx" target="_blank">Line</a></p></li>
       </ul>
     </footer>
   </body>

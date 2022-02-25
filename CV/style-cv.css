@@ -73,6 +73,7 @@ footer ul li {
 footer ul li a{
 		text-decoration: none;
 		color: #c1c6ce;
+		font-weight: bold;
 }
 	 
 footer ul li img {
@@ -102,5 +103,9 @@ input{
     height: 90px;
     white-space: nowrap;
 }
+
+footer ul li a:hover{
+	color:black;
+  }
 
 
